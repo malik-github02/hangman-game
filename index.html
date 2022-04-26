@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="poster">
+                <img src="poster.png" alt="poster">
+            </div>
+            <div class="word-origin">
+                Word From: <span></span>
+            </div>
+        </div>
+        <hr>
+        <div class="hangman-game">
+            <div class="hang-game">
+                <div class="the-hang">
+                    <div class="the-stand"></div>
+                    <div class="the-row"></div>
+                    <div class="the-man">
+                        <div class="the-head"></div>
+                        <div class="body"></div>
+                        <div class="right-hand"></div>
+                        <div class="left-hand"></div>
+                        <div class="right-leg"></div>
+                        <div class="left-leg"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="letters"></div>
+        </div>
+        <hr>
+        <div class="letters-guess"></div>
+        <div class="win">
+            <img src="win.gif" alt="Win-Gif">
+        </div>
+        <div class="lose">
+            <img src="lose.gif" alt="Lose-Gif">
+        </div>
+    </div>
+    <div class="footer">
+        Developed By malik &copy; All Rights Reserved
+    </div>
+    <audio id="fail" src="fail.wav" preload="auto"></audio>
+    <audio id="success" src="success.aac" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+
+</html>
